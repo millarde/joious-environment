@@ -1,0 +1,26 @@
+{
+  "name": "joious-environment",
+  "version": "0.1.0",
+  "description": "Demonstration of validated, separated configuration settings for Node.js app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "ava"
+  },
+  "keywords": [
+    "config",
+    "12factor",
+    "logging",
+    "configuration"
+  ],
+  "author": "Millard Ellingsworth",
+  "license": "MIT",
+  "dependencies": {
+    "joi": "^10.4.1",
+    "pino": "^4.2.4"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "ava": "^0.19.1"
+  }
+}
