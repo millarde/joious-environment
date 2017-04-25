@@ -11,7 +11,7 @@ Motivations:
 
 Official 12 factor approach is to use environment variables, so let's use those, while providing several avenues for instantiating them.
 
-To use: clone locally, `npm init` to install dependencies, `npm test` to run tests.
+To use: clone locally, `npm init` to install dependencies, `npm test` to run tests. Requires Node 6.x.
 
 The app currently short-circuits in index.js, just dumping the environment to the console and exiting (it doesn't need to do anything nore to demonstrate the config) so `npm start` isn't particularly interesting.
 
